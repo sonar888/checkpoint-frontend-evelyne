@@ -5,7 +5,7 @@ import { PageLayout } from "./components/Layout";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "/api",
+  uri: "http://http://localhost:5173/",
   cache: new InMemoryCache(),
   credentials: "same-origin",
 });
